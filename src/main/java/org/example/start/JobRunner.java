@@ -32,6 +32,8 @@ public class JobRunner implements CommandLineRunner {
     Job multipleFileJob;
     @Autowired
     Job cursorDataSourceJob;
+    @Autowired
+    Job paginatorDataSourceJob;
 
     @Override
     public void run(String... args) throws Exception {
@@ -45,7 +47,8 @@ public class JobRunner implements CommandLineRunner {
         //jobLauncher.run(multipleFormatsFileJob, jobParameters);
         //jobLauncher.run(multipleLineFileJob, jobParameters);
         //jobLauncher.run(multipleFileJob, jobParameters);
-        jobLauncher.run(cursorDataSourceJob, jobParameters);
+        //jobLauncher.run(cursorDataSourceJob, jobParameters);
+        jobLauncher.run(paginatorDataSourceJob, jobParameters);
         System.out.println("JOB Execution completed!");
     }
 }

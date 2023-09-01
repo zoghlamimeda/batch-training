@@ -78,3 +78,49 @@
 2023-09-01 13:45:28,082 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-09-01 13:45:28,085 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-09-01 13:45:28,091 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2023-09-01 13:59:57,104 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2023-09-01 13:59:57,146 INFO o.e.SpringBatchApp [main] Starting SpringBatchApp using Java 1.8.0_202 on ITEM-S77589 with PID 14000 (C:\Users\mzoghlami\DATA\mycode\batch\Batch - Copie\target\classes started by mzoghlami in C:\Users\mzoghlami\DATA\mycode\batch\Batch - Copie)
+2023-09-01 13:59:57,147 INFO o.e.SpringBatchApp [main] No active profile set, falling back to default profiles: default
+2023-09-01 13:59:57,665 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01 13:59:57,728 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2023-09-01 13:59:58,149 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01 13:59:58,197 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2023-09-01 13:59:58,351 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-01 13:59:58,885 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-09-01 13:59:59,618 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-09-01 13:59:59,633 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-09-01 14:00:00,445 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01 14:00:00,452 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01 14:00:01,057 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2023-09-01 14:00:01,344 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2023-09-01 14:00:01,408 INFO o.e.SpringBatchApp [main] Started SpringBatchApp in 4.886 seconds (JVM running for 5.725)
+2023-09-01 14:00:01,478 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=paginatorDataSourceJob]] launched with the following parameters: [{time=1693573201410}]
+2023-09-01 14:00:01,513 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [paginatorDataSourceStep]
+2023-09-01 14:00:02,137 INFO o.s.b.c.s.AbstractStep [main] Step: [paginatorDataSourceStep] executed in 623ms
+2023-09-01 14:00:02,148 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=paginatorDataSourceJob]] completed with the following parameters: [{time=1693573201410}] and the following status: [COMPLETED] in 648ms
+2023-09-01 14:00:02,153 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01 14:00:02,156 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-09-01 14:00:02,160 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2023-09-01 14:01:06,066 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 6.1.6.Final
+2023-09-01 14:01:06,105 INFO o.e.SpringBatchApp [main] Starting SpringBatchApp using Java 1.8.0_202 on ITEM-S77589 with PID 13716 (C:\Users\mzoghlami\DATA\mycode\batch\Batch - Copie\target\classes started by mzoghlami in C:\Users\mzoghlami\DATA\mycode\batch\Batch - Copie)
+2023-09-01 14:01:06,107 INFO o.e.SpringBatchApp [main] No active profile set, falling back to default profiles: default
+2023-09-01 14:01:06,662 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-01 14:01:06,727 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2023-09-01 14:01:07,115 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-01 14:01:07,165 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.25.Final
+2023-09-01 14:01:07,318 INFO o.h.a.c.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-09-01 14:01:07,865 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-09-01 14:01:08,612 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-09-01 14:01:08,630 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2023-09-01 14:01:09,457 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-01 14:01:09,465 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01 14:01:10,066 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2023-09-01 14:01:10,338 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2023-09-01 14:01:10,434 INFO o.e.SpringBatchApp [main] Started SpringBatchApp in 4.964 seconds (JVM running for 5.765)
+2023-09-01 14:01:10,520 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=paginatorDataSourceJob]] launched with the following parameters: [{time=1693573270437}]
+2023-09-01 14:01:10,571 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [paginatorDataSourceStep]
+2023-09-01 14:01:11,306 INFO o.s.b.c.s.AbstractStep [main] Step: [paginatorDataSourceStep] executed in 735ms
+2023-09-01 14:01:11,315 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=paginatorDataSourceJob]] completed with the following parameters: [{time=1693573270437}] and the following status: [COMPLETED] in 765ms
+2023-09-01 14:01:11,320 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-01 14:01:11,322 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-09-01 14:01:11,326 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
